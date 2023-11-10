@@ -21,7 +21,7 @@ function generaPassword(){
     if(caratterinumerici.checked) stringainiziale += listacaratteriNumerici
     if(caratterispeciali.checked) stringainiziale += listacaratteriSpeciali
 
-    for(let i =0; i<lunghezzapassword.ariaValueMax; i++){
+    for(let i =0; i<lunghezzapassword.value; i++){
       risultato += stringainiziale.chartAt(
         Math.floor(Math.random()*stringainiziale.length)
     )
