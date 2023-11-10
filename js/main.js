@@ -26,6 +26,8 @@ function generaPassword(){
         Math.floor(Math.random()*stringainiziale.length)
     )
 }
+
 risultatoDiv.innerHTML = ""
 risultatoDiv.innerHTML = risultato
+
 }
